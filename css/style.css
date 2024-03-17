@@ -304,6 +304,9 @@ address {
 .team-icons-link:hover {
   background-color: #404bbf;
 }
+.team-icons-link:focus {
+  background-color: #404bbf;
+}
 .team-list-item-icons {
   width: 40px;
   height: 40px;
