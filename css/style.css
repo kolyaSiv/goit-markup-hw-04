@@ -284,15 +284,13 @@ address {
   text-align: center;
   color: #434455;
 }
-.team-list-icons {
+.team-social-icons {
   display: flex;
+  padding-left: 16px; /* Змінив порядок властивостей */
+  gap: 24px;
+  padding-bottom: 32px;
 }
 .team-icons {
-}
-.team-list-icons {
-  padding-bottom: 32px;
-  padding-left: 16px;
-  gap: 24px;
 }
 .team-list-item-icons {
   width: 40px;
@@ -302,14 +300,13 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-property: color, background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Змінив властивість transition */
 }
 .team-list-item-icons:hover {
   background-color: #31d0aa;
 }
-
 /*               portfolio                      */
 
 .portfolio {
