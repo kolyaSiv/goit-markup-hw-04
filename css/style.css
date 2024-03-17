@@ -416,7 +416,11 @@ address {
 .footer-span {
   color: #f4f4fd;
 }
-.footer-wrap {
+.container-wrap {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
   display: flex;
   align-items: baseline;
 }
@@ -430,6 +434,7 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  margin-right: 120px;
 }
 .footer-text {
   max-width: 264px;
@@ -439,6 +444,7 @@ address {
   color: #f4f4fd;
 }
 .footer-network {
+  margin-right: 120px;
 }
 .footer-network-text {
   margin-bottom: 16px;
