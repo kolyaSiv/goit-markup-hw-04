@@ -416,7 +416,9 @@ address {
 .footer-span {
   color: #f4f4fd;
 }
-.footer-container {
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
 }
 .footer-logo {
   display: inline-block;
