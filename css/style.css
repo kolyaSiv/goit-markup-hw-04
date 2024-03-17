@@ -88,46 +88,38 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-.header-span {
-  position: relative;
-  color: #404bbf;
-}
-.header-span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -20px; /* Змінив top на bottom */
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404bbf;
+  position: relative; /* Додавання позиціонування елемента */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Додавання плавної зміни кольору тексту */
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
 }
-
-.header-comtact-link:hover,
-.header-comtact-link:focus {
-  color: #404bbf;
-}
-.header-comtact {
-  font-style: normal;
+.header-menu-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .header-comtact-list {
-  gap: 40px;
   display: flex;
-}
-.header-comtact-item {
+  gap: 40px;
 }
 .header-comtact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Додавання плавної зміни кольору тексту */
 }
-/*               hero                      */
+.header-comtact-link:hover,
+.header-comtact-link:focus {
+  color: #404bbf;
+} /*               hero                      */
 
 .hero {
   background-image: linear-gradient(
