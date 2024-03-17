@@ -416,6 +416,9 @@ address {
 .footer-span {
   color: #f4f4fd;
 }
+.footer-container {
+  margin-right: 120px;
+}
 .container-wrap {
   width: 1158px;
   padding-left: 15px;
@@ -473,7 +476,10 @@ address {
 .footer-network-item:hover {
   background-color: #31d0aa;
 }
-
+.footer-container {
+  width: 100%;
+  height: 100%;
+}
 .network-icom {
 }
 .footer-list {
