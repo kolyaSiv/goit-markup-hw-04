@@ -241,7 +241,6 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 .team-title {
   margin-bottom: 72px;
   font-weight: 700;
@@ -252,29 +251,22 @@ address {
   text-align: center;
   color: #2e2f42;
 }
-
 .team-list {
   gap: 24px;
   display: flex;
   justify-content: center;
 }
-
 .team-information {
   padding: 32px 0;
 }
-
 .team-list-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-
 .team-images {
-  display: block; /* Додано */
-  margin: 0 auto; /* Додано */
 }
-
 .team-name-title {
   font-weight: 500;
   font-size: 20px;
@@ -284,7 +276,6 @@ address {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
 .team-specifics {
   font-weight: 400;
   font-size: 16px;
@@ -293,19 +284,14 @@ address {
   text-align: center;
   color: #434455;
 }
-
 .team-social-icons {
   display: flex;
-  justify-content: center; /* Змінено на центрування по горизонталі */
+  padding-left: 16px; /* Змінив порядок властивостей */
   gap: 24px;
-  padding-top: 16px; /* Змінено на відступ зверху */
-  list-style-type: none; /* Додано */
+  padding-bottom: 32px;
 }
-
 .team-icons {
-  fill: #ffffff; /* Додано, щоб змінити колір іконок на білий */
 }
-
 .team-list-item-icons {
   width: 40px;
   height: 40px;
@@ -314,12 +300,14 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Змінено */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Змінив властивість transition */
 }
-
 .team-list-item-icons:hover {
-  background-color: #404bbf;
-} /*               portfolio                      */
+  background-color: #31d0aa;
+}
+/*               portfolio                      */
 
 .portfolio {
   padding-top: 120px;
