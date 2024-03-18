@@ -476,9 +476,15 @@ address {
 .footer-network-item:hover {
   background-color: #31d0aa;
 }
-.footer-container {
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
+}
+.footer-link:hover {
+  background-color: #31d0aa;
 }
 .network-icom {
 }
