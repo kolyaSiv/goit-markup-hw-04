@@ -505,6 +505,9 @@ address {
 .footer-link:hover .footer-link:focus {
   background-color: #31d0aa;
 }
+.footer-link:focus {
+  background-color: #31d0aa;
+}
 .network-icom {
 }
 .footer-list {
