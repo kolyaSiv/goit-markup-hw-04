@@ -310,7 +310,10 @@ address {
   justify-content: center;
   background-color: var(--maim-color);
 }
-.team-icons-link:hover .team-icons-link:focus {
+.team-icons-link:hover {
+  background-color: #404bbf;
+}
+.team-icons-link:focus {
   background-color: #404bbf;
 }
 .team-list-item-icons {
