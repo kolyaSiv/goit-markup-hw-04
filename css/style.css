@@ -96,6 +96,17 @@ address {
   display: flex;
 }
 .header-menu-item {
+  color: #404bbf;
+}
+.header-menu-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .header-menu-link {
   padding-top: 24px;
